@@ -1,12 +1,23 @@
 <template>
   <div id="app">
     <div id="nav">
+      <icon type="icon-tips-add-friend" size="100" color="red" />
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
     <router-view />
   </div>
 </template>
+
+<script>
+import icon from "@/components/icon.vue";
+require("./assets/css/iconfont.css");
+export default {
+  components: {
+    icon
+  }
+};
+</script>
 
 <style lang="less">
 #app {
