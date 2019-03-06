@@ -27,7 +27,7 @@ export default {
   },
   computed: {
     fontSize() {
-      return this.size + "px";
+      return `${this.size}px`;
     }
   },
   methods: {
