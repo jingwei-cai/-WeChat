@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <icon type="icon-tips-add-friend" size="100" color="red" />
+      <icon type="icon-tips-jia" size="100" color="red" />
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
