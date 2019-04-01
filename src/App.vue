@@ -1,20 +1,13 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <icon type="icon-tips-jia" size="100" color="red" />
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view />
   </div>
 </template>
 
 <script>
-import icon from "@/components/icon.vue";
-require("./assets/css/iconfont.css");
 export default {
-  components: {
-    icon
+  data() {
+    return {};
   }
 };
 </script>
@@ -27,14 +20,14 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
+// #nav {
+//   padding: 30px;
+//   a {
+//     font-weight: bold;
+//     color: #2c3e50;
+//     &.router-link-exact-active {
+//       color: #42b983;
+//     }
+//   }
+// }
 </style>
