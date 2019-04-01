@@ -7,7 +7,7 @@ Vue.config.productionTip = false;
 /**
  * @author 组件引入
  */
-import icon from "@/views/icon/src/icon.vue";
+import Icon from "@/views/icon/src/icon.vue";
 /**
  * @author 组件样式引入
  */
@@ -15,7 +15,7 @@ import "./views/icon/iconfont.css";
 /**
  * @author
  */
-Vue.component("icon", icon);
+Vue.component("Icon", Icon);
 
 new Vue({
   router,
