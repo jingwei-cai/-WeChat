@@ -11,7 +11,8 @@ import Icon from "./components/icon.vue";
 /**
  * @author 组件样式引入
  */
-import "./assets/icon/iconfont.css";
+import "./assets/style/style.css";
+import "./assets/style/iconfont.css";
 /**
  * @author
  */

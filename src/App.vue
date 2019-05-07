@@ -1,13 +1,18 @@
 <template>
   <div id="app">
     <router-view />
+    <tab></tab>
   </div>
 </template>
 
 <script>
+import tab from "@/components/tab.vue";
 export default {
   data() {
     return {};
+  },
+  components: {
+    tab
   }
 };
 </script>
@@ -20,14 +25,4 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-// #nav {
-//   padding: 30px;
-//   a {
-//     font-weight: bold;
-//     color: #2c3e50;
-//     &.router-link-exact-active {
-//       color: #42b983;
-//     }
-//   }
-// }
 </style>

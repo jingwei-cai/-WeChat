@@ -10,7 +10,12 @@ export default new Router({
     {
       path: "/",
       name: "iocn",
-      component: () => import("./components/tab.vue")
+      component: () => import("./views/icon.vue")
+    },
+    {
+      path: "/addressBook",
+      name: "iocn",
+      component: () => import("./views/addressBook/index.vue")
     }
   ]
 });

@@ -1,16 +1,13 @@
 <template>
-  <tab></tab>
+  <div>123</div>
 </template>
 
 <script>
-import tab from "@/components/tab.vue";
 export default {
   data() {
     return {};
   },
-  components: {
-    tab
-  }
+  components: {}
 };
 </script>
 
