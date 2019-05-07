@@ -10,7 +10,7 @@ export default new Router({
     {
       path: "/",
       name: "iocn",
-      component: () => import("./components/iocn.vue")
+      component: () => import("./components/tab.vue")
     }
   ]
 });
